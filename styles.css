@@ -1,0 +1,60 @@
+.container{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    display: grid;
+    grid-template-columns:0ex;
+    grid-column: 2;
+}
+.left{
+display: grid;
+grid-area: span 3;
+}
+.right{
+   display: grid;
+   grid-area: span 3;
+}
+.main{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.container{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: brown;
+}
+#box4{
+    background-color: palevioletred;
+}
+#box5{
+    background-color: olive;
+}
+#box6{
+    background-color: orange;
+}
+#box7{
+    background-color: red;
+}
+#box8{
+    background-color: black;
+}
